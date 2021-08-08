@@ -1,0 +1,18 @@
+.boxes{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    
+}
+
+
+    /* ////  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); for this u dont need to give media queries specially for this  */
+
+
+
+
+    .box {
+        background: var(--primary);
+        text-align: center;
+        padding: 1.5rem 2rem;
+        box-shadow: var(--shadow);
+      }
